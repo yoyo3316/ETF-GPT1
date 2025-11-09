@@ -208,10 +208,65 @@
 
     // ===== Renderers =====
     function renderETFPriceInfo(data){const wrap=document.getElementById('etfPriceInfo');wrap.innerHTML='';if(!data)return;const changeValue=Number(data.change_value||0);const box=el('div',{className:'etf-price-box'},[el('div',{className:'etf-price-code',text:currentETF}),el('div',{className:'etf-price-name',text:data.name||''}),el('div',{className:'etf-price-value',text:`$${data.price??'-'}`},[]),el('div',{className:`etf-price-change ${isNaN(changeValue)?'':(changeValue<0?'negative':'positive')}`,text:`${!isNaN(changeValue)&&changeValue>=0?'📈 ▲':'📉 ▼'} ${data.change_value??''} ${data.change_percent??''}`})]);wrap.appendChild(box);}
-    function renderSummaryBar(){const d=processedData[currentETF];const s=d?.summary;const bar=document.getElementById('summaryBar');bar.innerHTML='';if(!s)return;const netClass=s.net_count_change_thousand>=0?'positive':'negative';const netWClass=s.net_weight_change_pct>=0?'positive':'negative';[{t:'期間',v:`${d.previous_date} → ${d.latest_date}`},{t:'新增家數',v:s.new_count},{t:'刪除家數',v:s.closed_count},{t:'加碼家數',v:s.add_count},{t:'減碼家數',v:s.reduce_count},{t:'淨變動(張)',v:(s.net_count_change_thousand>=0?'+':'')+s.net_count_change_thousand,cls:netClass},{t:'淨變動(權重%)',v:(s.net_weight_change_pct>=0?'+':'')+s.net_weight_change_pct.toFixed(2)+'%',cls:netWClass},{t:'重大增持家數',v:s.major_add_count},{t:'重大減持家數',v:s.major_reduce_count}].forEach(it=>{bar.appendChild(el('div',{className:'summary-card'},[el('h4',{text:it.t}),el('div',{className:`summary-val ${it.cls||''}`,text:String(it.v)})]));});}
+    function renderSummaryBar(){
+      const d=processedData[currentETF];
+      const s=d?.summary; const bar=document.getElementById('summaryBar'); bar.innerHTML='';
+      if(!s){return;}
+      const nCount = (v)=> (v===undefined||v===null||isNaN(Number(v)))? '-' : String(v);
+      const nPct = (v)=>{
+        const num = Number(v);
+        if(Number.isFinite(num)){
+          const sign = num>=0? '+':'';
+          return sign + num.toFixed(2) + '%';
+        }
+        return '-';
+      };
+      const netCountClass = Number(s.net_count_change_thousand)>=0? 'positive':'negative';
+      const netWeightClass = Number(s.net_weight_change_pct)>=0? 'positive':'negative';
+      const items=[
+        {t:'期間', v:`${d?.previous_date??'-'} → ${d?.latest_date??'-'}`},
+        {t:'新增家數', v:nCount(s.new_count)},
+        {t:'刪除家數', v:nCount(s.closed_count)},
+        {t:'加碼家數', v:nCount(s.add_count)},
+        {t:'減碼家數', v:nCount(s.reduce_count)},
+        {t:'淨變動(張)', v: (Number(s.net_count_change_thousand)>=0?'+':'') + nCount(s.net_count_change_thousand), cls: netCountClass},
+        {t:'淨變動(權重%)', v: nPct(s.net_weight_change_pct), cls: netWeightClass},
+        {t:'重大增持家數', v:nCount(s.major_add_count)},
+        {t:'重大減持家數', v:nCount(s.major_reduce_count)}
+      ];
+      items.forEach(it=>{
+        const card=document.createElement('div'); card.className='summary-card';
+        const h=document.createElement('h4'); h.textContent=it.t; card.appendChild(h);
+        const v=document.createElement('div'); v.className=`summary-val ${it.cls||''}`; v.textContent=it.v; card.appendChild(v);
+        bar.appendChild(card);
+      });
+    }
     function renderChanges(){const d=processedData[currentETF];renderETFPriceInfo(d);renderSummaryBar();const grid=document.getElementById('changesGrid');grid.innerHTML='';if(!d||!Array.isArray(d.daily_changes)||d.daily_changes.length===0){grid.appendChild(el('p',{className:'no-data',text:'今日無異動資料'}));return;}d.daily_changes.forEach(ch=>{const type=ch.type;const badgeClass=type==='新增'?'new':type==='增持'?'add':type==='減持'?'reduce':'delete';const cardClass=type==='新增'?'new-add':type==='刪除'?'delete':'';const badgeIcon=type==='新增'?'✨':type==='刪除'?'🗑️':type==='增持'?'📈':'📉';const card=el('div',{className:`change-card ${cardClass}`,role:'button',tabindex:'0'});card.addEventListener('click',()=>showStockDetail(ch.code,currentETF));card.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' ')showStockDetail(ch.code,currentETF)});const header=el('div',{className:'change-card-header'},[el('div',{className:'change-code-name'},[el('div',{className:'change-code',text:ch.code||''}),el('div',{className:'change-name',text:ch.name||''})]),el('span',{className:`badge ${badgeClass}`},[el('span',{className:'badge-icon',text:badgeIcon}),document.createTextNode(type)])]);const stats=el('div',{className:'change-stats'},[el('div',{className:'stat-item'},[el('div',{className:'stat-label',text:'💼 今日持股'}),el('div',{className:'stat-value',text:formatNumber(ch.current_count)})]),el('div',{className:'stat-item'},[el('div',{className:'stat-label',text:'💯 今日權重'}),el('div',{className:'stat-value',text:`${Number(ch.current_weight??0).toFixed(2)}%`})]),el('div',{className:'stat-item'},[el('div',{className:'stat-label',text:'📊 張數變動'}),el('div',{className:`stat-value ${ch.count_change>0?'positive':'negative'}`,text:`${ch.count_change>=0?'+':''}${formatNumber(ch.count_change)}`})]),el('div',{className:'stat-item'},[el('div',{className:'stat-label',text:'📈 權重變動'}),el('div',{className:`stat-value ${ch.weight_change>0?'positive':'negative'}`,text:`${ch.weight_change>=0?'+':''}${Number(ch.weight_change??0).toFixed(2)}%`})])]);card.append(header,stats);grid.appendChild(card);});}
     function renderStockList(stocks){const list=document.getElementById('stocksList');list.innerHTML='';if(!stocks||stocks.length===0){list.appendChild(el('p',{className:'no-data',text:'暫無股票數據'}));return;}stocks.slice(0,200).forEach(s=>{const firstETF=Object.keys(s.etf_holdings||{})[0];const etfCount=Object.keys(s.etf_holdings||{}).length;const totalCount=Object.values(s.etf_holdings||{}).reduce((sum,e)=>sum+(e.current_count||0),0);const card=el('div',{className:'stock-card',role:'button',tabindex:'0'});card.addEventListener('click',()=>showStockDetail(s.code,firstETF));card.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' ')showStockDetail(s.code,firstETF)});const head=el('div',{className:'stock-card-header'},[el('div',{className:'stock-code',text:s.code||''}),el('div',{className:'stock-name',text:s.name||'(無名稱)'})]);const stats=el('div',{className:'stock-stats'},[el('div',{className:'stock-stat'},[el('div',{className:'stock-stat-label',text:'持有ETF'}),el('div',{className:'stock-stat-value',text:String(etfCount)})]),el('div',{className:'stock-stat'},[el('div',{className:'stock-stat-label',text:'總持股'}),el('div',{className:'stock-stat-value',text:formatNumber(totalCount)})])]);card.append(head,stats);list.appendChild(card);});}
-    function ranksTable(title,rows,valueKey,suffix=''){const wrap=el('div',{className:'history-table',style:'margin-bottom:16px;'});const tbl=el('table');const thead=el('thead');thead.appendChild(el('tr',{},[el('th',{text:title}),el('th',{text:'代碼'}),el('th',{text:'變動'})]));const tbody=el('tbody');(rows||[]).forEach(r=>{const tr=el('tr');tr.append(el('td',{text:r.name||''}),el('td',{text:r.code||''}),el('td',{text:(r[valueKey]>=0?'+':'')+(valueKey==='weight_change'?r[valueKey].toFixed(2):r[valueKey])+(suffix||'')}));tr.addEventListener('click',()=>showStockDetail(r.code,currentETF));tbody.appendChild(tr);});tbl.append(thead,tbody);wrap.appendChild(tbl);return wrap}
+    function ranksTable(title,rows,valueKey,suffix=' '){
+      const wrap=el('div',{className:'history-table',style:'margin-bottom:16px;'});
+      const tbl=el('table');
+      const thead=el('thead'); thead.appendChild(el('tr',{},[el('th',{text:title}),el('th',{text:'代碼'}),el('th',{text:'變動'})]));
+      const tbody=el('tbody');
+      (rows||[]).forEach(r=>{
+        const tr=el('tr');
+        let val='-';
+        const raw=r?.[valueKey];
+        if(valueKey==='weight_change'){
+          if(Number.isFinite(Number(raw))) val=(Number(raw)>=0?'+':'')+Number(raw).toFixed(2)+ (suffix||'');
+        }else{
+          if(Number.isFinite(Number(raw))) val=(Number(raw)>=0?'+':'')+String(raw)+(suffix||'');
+        }
+        tr.append(
+          el('td',{text:r.name||''}),
+          el('td',{text:r.code||''}),
+          el('td',{text:val})
+        );
+        tr.addEventListener('click',()=>showStockDetail(r.code,currentETF));
+        tbody.appendChild(tr);
+      });
+      tbl.append(thead,tbody); wrap.appendChild(tbl); return wrap;
+    }
     function renderRanks(){const c=document.getElementById('ranksGrids');c.innerHTML='';const d=processedData[currentETF];if(!d?.ranks){c.appendChild(el('p',{className:'no-data',text:'暫無排行資料'}));return;}const r=d.ranks;c.append(ranksTable('張數增加 Top',r.top_count_up,'count_change',' 張'),ranksTable('張數減少 Top',r.top_count_down,'count_change',' 張'),ranksTable('權重增加 Top',r.top_weight_up,'weight_change',' %'),ranksTable('權重減少 Top',r.top_weight_down,'weight_change',' %'),ranksTable('今日新增',r.new_positions,'current_count',' 張'),ranksTable('今日出清',r.closed_positions,'prev_count',' 張'));}
     function gridFromStrategy(title,rows,countKey,extraCols=[]){const wrap=el('div',{className:'history-table',style:'margin-bottom:16px;'});const tbl=el('table');const thead=el('thead');const trh=el('tr');['名稱','代碼','事件次數','當前張數','淨變動(張)'].concat(extraCols.map(c=>c.title)).forEach(h=>trh.appendChild(el('th',{text:h})));thead.appendChild(trh);const tbody=el('tbody');(rows||[]).forEach(r=>{const tr=el('tr');tr.append(el('td',{text:r.name||''}),el('td',{text:r.code||''}),el('td',{text:r.events||0}),el('td',{text:formatNumber(r.current_count||0)}),el('td',{text:(r[countKey]>=0?'+':'')+formatNumber(r[countKey])}));extraCols.forEach(c=>tr.appendChild(el('td',{text:r[c.key]||''})));tr.addEventListener('click',()=>showStockDetail(r.code,currentETF));tbody.appendChild(tr);});tbl.append(thead,tbody);wrap.appendChild(tbl);const cap=el('div',{className:'etf-price-name',text:title});return el('div',{},[cap,wrap])}
     function renderStrategy(){const d=processedData[currentETF];const box=document.getElementById('strategyHeader');const g=document.getElementById('strategyGrids');g.innerHTML='';box.innerHTML='';if(!d?.strategy){g.appendChild(el('p',{className:'no-data',text:'暫無趨勢資料'}));return;}const p=d.strategy_params||{};box.append(el('div',{className:'etf-price-code',text:currentETF}),el('div',{className:'etf-price-name',text:`事件窗口：最近 ${p.trend_window||'-'} 日；上調事件≥${p.min_increase_events||'-'} 次；下調事件≥${p.min_decrease_events||'-'} 次；判定門檻(有部位)：>${(p.entry_threshold_shares||1000)/1000} 張`}));const s=d.strategy;g.append(gridFromStrategy('上調事件達標',s.increasing,'net_increase'),gridFromStrategy('下調事件達標',s.decreasing,'net_decrease'),gridFromStrategy('新建立部位',s.new_positions||[],'current_count',[{title:'進場日',key:'entry_date'}]),gridFromStrategy('視窗內出清',s.closed_positions||[],'exit_count',[{title:'出清日',key:'exit_date'}]));}
