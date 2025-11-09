@@ -1,0 +1,3341 @@
+{
+  "00980A": {
+    "name": "野村臺灣智慧優選主動式ETF",
+    "latest_date": "2025/11/07",
+    "previous_date": "2025/11/06",
+    "price": "14.53",
+    "change_value": "-0.27",
+    "change_percent": "-1.82%",
+    "daily_changes": [
+      {
+        "code": "2891",
+        "name": "中國信託金融控股",
+        "type": "增持",
+        "count_change": 179,
+        "weight_change": 0.08,
+        "prev_count": 3649,
+        "prev_weight": 2.43,
+        "current_count": 3828,
+        "current_weight": 2.51
+      },
+      {
+        "code": "2884",
+        "name": "玉山金融控股",
+        "type": "增持",
+        "count_change": 176,
+        "weight_change": 0.06,
+        "prev_count": 3571,
+        "prev_weight": 1.68,
+        "current_count": 3747,
+        "current_weight": 1.74
+      },
+      {
+        "code": "2881",
+        "name": "富邦金融控股",
+        "type": "增持",
+        "count_change": 83,
+        "weight_change": 0.08,
+        "prev_count": 1681,
+        "prev_weight": 2.42,
+        "current_count": 1764,
+        "current_weight": 2.5
+      },
+      {
+        "code": "2027",
+        "name": "大成不銹鋼工業",
+        "type": "增持",
+        "count_change": 69,
+        "weight_change": 0.04,
+        "prev_count": 1420,
+        "prev_weight": 0.81,
+        "current_count": 1489,
+        "current_weight": 0.85
+      }
+    ],
+    "strategy_params": {
+      "trend_window": 10,
+      "min_increase_events": 3,
+      "min_decrease_events": 3,
+      "entry_threshold_shares": 1000
+    },
+    "strategy": {
+      "increasing": [
+        {
+          "code": "2881",
+          "name": "富邦金融控股",
+          "events": 6,
+          "window_days": 10,
+          "net_increase": 962,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 1764
+        },
+        {
+          "code": "5439",
+          "name": "高技企業",
+          "events": 6,
+          "window_days": 10,
+          "net_increase": 264,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 480
+        },
+        {
+          "code": "2379",
+          "name": "瑞昱半導體",
+          "events": 6,
+          "window_days": 10,
+          "net_increase": 119,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 187
+        },
+        {
+          "code": "2891",
+          "name": "中國信託金融控股",
+          "events": 5,
+          "window_days": 10,
+          "net_increase": 1069,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 3828
+        },
+        {
+          "code": "2408",
+          "name": "南亞科技",
+          "events": 5,
+          "window_days": 10,
+          "net_increase": 693,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 693
+        },
+        {
+          "code": "6213",
+          "name": "聯茂電子",
+          "events": 5,
+          "window_days": 10,
+          "net_increase": 146,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 525
+        },
+        {
+          "code": "3036",
+          "name": "文曄科技",
+          "events": 5,
+          "window_days": 10,
+          "net_increase": 108,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 389
+        },
+        {
+          "code": "4915",
+          "name": "致伸科技",
+          "events": 5,
+          "window_days": 10,
+          "net_increase": 97,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 348
+        },
+        {
+          "code": "3044",
+          "name": "健鼎科技",
+          "events": 5,
+          "window_days": 10,
+          "net_increase": 30,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 303
+        },
+        {
+          "code": "5234",
+          "name": "達興材料",
+          "events": 5,
+          "window_days": 10,
+          "net_increase": 68,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 242
+        },
+        {
+          "code": "3211",
+          "name": "順達科技",
+          "events": 5,
+          "window_days": 10,
+          "net_increase": 159,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 236
+        },
+        {
+          "code": "8114",
+          "name": "振樺電子",
+          "events": 5,
+          "window_days": 10,
+          "net_increase": 58,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 206
+        },
+        {
+          "code": "3526",
+          "name": "凡甲科技",
+          "events": 5,
+          "window_days": 10,
+          "net_increase": -21,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 187
+        },
+        {
+          "code": "2376",
+          "name": "技嘉科技",
+          "events": 5,
+          "window_days": 10,
+          "net_increase": -100,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 183
+        },
+        {
+          "code": "6442",
+          "name": "光紅建聖",
+          "events": 5,
+          "window_days": 10,
+          "net_increase": 47,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 166
+        },
+        {
+          "code": "5434",
+          "name": "崇越科技",
+          "events": 5,
+          "window_days": 10,
+          "net_increase": 42,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 152
+        },
+        {
+          "code": "6121",
+          "name": "新普科技",
+          "events": 5,
+          "window_days": 10,
+          "net_increase": 36,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 129
+        },
+        {
+          "code": "5904",
+          "name": "寶雅國際",
+          "events": 5,
+          "window_days": 10,
+          "net_increase": 31,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 109
+        },
+        {
+          "code": "4749",
+          "name": "新應材",
+          "events": 5,
+          "window_days": 10,
+          "net_increase": 72,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 72
+        },
+        {
+          "code": "6223",
+          "name": "旺矽科技",
+          "events": 5,
+          "window_days": 10,
+          "net_increase": 35,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 71
+        },
+        {
+          "code": "3293",
+          "name": "鈊象電子",
+          "events": 5,
+          "window_days": 10,
+          "net_increase": 16,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 59
+        },
+        {
+          "code": "6515",
+          "name": "穎崴科技",
+          "events": 5,
+          "window_days": 10,
+          "net_increase": 35,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 35
+        },
+        {
+          "code": "2884",
+          "name": "玉山金融控股",
+          "events": 4,
+          "window_days": 10,
+          "net_increase": 891,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 3747
+        },
+        {
+          "code": "2027",
+          "name": "大成不銹鋼工業",
+          "events": 4,
+          "window_days": 10,
+          "net_increase": 44,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 1489
+        },
+        {
+          "code": "3231",
+          "name": "緯創資通",
+          "events": 4,
+          "window_days": 10,
+          "net_increase": 105,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 747
+        },
+        {
+          "code": "2449",
+          "name": "京元電子",
+          "events": 4,
+          "window_days": 10,
+          "net_increase": 360,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 360
+        },
+        {
+          "code": "6274",
+          "name": "台燿科技",
+          "events": 4,
+          "window_days": 10,
+          "net_increase": 109,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 326
+        },
+        {
+          "code": "2345",
+          "name": "智邦科技",
+          "events": 4,
+          "window_days": 10,
+          "net_increase": 45,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 183
+        },
+        {
+          "code": "2723",
+          "name": "開曼美食達人",
+          "events": 4,
+          "window_days": 10,
+          "net_increase": 39,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 164
+        },
+        {
+          "code": "3665",
+          "name": "貿聯控股（BizLink Holding In",
+          "events": 4,
+          "window_days": 10,
+          "net_increase": 29,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 111
+        },
+        {
+          "code": "6805",
+          "name": "富世達",
+          "events": 4,
+          "window_days": 10,
+          "net_increase": 20,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 82
+        },
+        {
+          "code": "3653",
+          "name": "健策精密工業",
+          "events": 4,
+          "window_days": 10,
+          "net_increase": 17,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 51
+        },
+        {
+          "code": "6669",
+          "name": "緯穎科技服務",
+          "events": 4,
+          "window_days": 10,
+          "net_increase": 5,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 50
+        },
+        {
+          "code": "6510",
+          "name": "中華精測科技",
+          "events": 4,
+          "window_days": 10,
+          "net_increase": 24,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 41
+        },
+        {
+          "code": "3661",
+          "name": "世芯電子",
+          "events": 4,
+          "window_days": 10,
+          "net_increase": 10,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 21
+        },
+        {
+          "code": "2317",
+          "name": "鴻海精密工業",
+          "events": 3,
+          "window_days": 10,
+          "net_increase": 99,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 1048
+        },
+        {
+          "code": "2382",
+          "name": "廣達電腦",
+          "events": 3,
+          "window_days": 10,
+          "net_increase": -19,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 454
+        },
+        {
+          "code": "2368",
+          "name": "金像電子（股）公司",
+          "events": 3,
+          "window_days": 10,
+          "net_increase": 72,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 361
+        },
+        {
+          "code": "2330",
+          "name": "台灣積體電路製造",
+          "events": 3,
+          "window_days": 10,
+          "net_increase": 53,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 321
+        },
+        {
+          "code": "2308",
+          "name": "台達電子工業",
+          "events": 3,
+          "window_days": 10,
+          "net_increase": 60,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 272
+        },
+        {
+          "code": "2454",
+          "name": "聯發科技",
+          "events": 3,
+          "window_days": 10,
+          "net_increase": 27,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 137
+        },
+        {
+          "code": "2383",
+          "name": "台光電子材料",
+          "events": 3,
+          "window_days": 10,
+          "net_increase": 10,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 123
+        },
+        {
+          "code": "6561",
+          "name": "是方電訊",
+          "events": 3,
+          "window_days": 10,
+          "net_increase": 17,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 115
+        }
+      ],
+      "decreasing": [],
+      "new_positions": [
+        {
+          "code": "4749",
+          "name": "新應材",
+          "entry_date": "2025/11/07",
+          "current_count": 72
+        },
+        {
+          "code": "6515",
+          "name": "穎崴科技",
+          "entry_date": "2025/11/07",
+          "current_count": 35
+        },
+        {
+          "code": "2449",
+          "name": "京元電子",
+          "entry_date": "2025/11/07",
+          "current_count": 360
+        },
+        {
+          "code": "2408",
+          "name": "南亞科技",
+          "entry_date": "2025/11/07",
+          "current_count": 693
+        }
+      ],
+      "closed_positions": [
+        {
+          "code": "2357",
+          "name": "華碩電腦",
+          "exit_date": "2025/11/07"
+        },
+        {
+          "code": "9802",
+          "name": "鈺齊國際",
+          "exit_date": "2025/11/07"
+        },
+        {
+          "code": "3605",
+          "name": "宏致電子",
+          "exit_date": "2025/11/07"
+        },
+        {
+          "code": "6757",
+          "name": "台灣虎航",
+          "exit_date": "2025/11/07"
+        },
+        {
+          "code": "8016",
+          "name": "矽創電子",
+          "exit_date": "2025/11/07"
+        }
+      ]
+    },
+    "ranks": {
+      "top_count_up": [
+        {
+          "code": "2891",
+          "name": "中國信託金融控股",
+          "count_change": 179,
+          "weight_change": 0.08,
+          "prev_count": 3649,
+          "prev_weight": 2.43,
+          "current_count": 3828,
+          "current_weight": 2.51,
+          "event": "增持"
+        },
+        {
+          "code": "2884",
+          "name": "玉山金融控股",
+          "count_change": 176,
+          "weight_change": 0.06,
+          "prev_count": 3571,
+          "prev_weight": 1.68,
+          "current_count": 3747,
+          "current_weight": 1.74,
+          "event": "增持"
+        },
+        {
+          "code": "2881",
+          "name": "富邦金融控股",
+          "count_change": 83,
+          "weight_change": 0.08,
+          "prev_count": 1681,
+          "prev_weight": 2.42,
+          "current_count": 1764,
+          "current_weight": 2.5,
+          "event": "增持"
+        },
+        {
+          "code": "2027",
+          "name": "大成不銹鋼工業",
+          "count_change": 69,
+          "weight_change": 0.04,
+          "prev_count": 1420,
+          "prev_weight": 0.81,
+          "current_count": 1489,
+          "current_weight": 0.85,
+          "event": "增持"
+        },
+        {
+          "code": "3231",
+          "name": "緯創資通",
+          "count_change": 35,
+          "weight_change": 0.03,
+          "prev_count": 712,
+          "prev_weight": 1.58,
+          "current_count": 747,
+          "current_weight": 1.61,
+          "event": "增持"
+        },
+        {
+          "code": "2408",
+          "name": "南亞科技",
+          "count_change": 32,
+          "weight_change": 0.07,
+          "prev_count": 661,
+          "prev_weight": 1.53,
+          "current_count": 693,
+          "current_weight": 1.6,
+          "event": "增持"
+        },
+        {
+          "code": "6213",
+          "name": "聯茂電子",
+          "count_change": 24,
+          "weight_change": 0.02,
+          "prev_count": 501,
+          "prev_weight": 0.93,
+          "current_count": 525,
+          "current_weight": 0.95,
+          "event": "增持"
+        },
+        {
+          "code": "5439",
+          "name": "高技企業",
+          "count_change": 22,
+          "weight_change": 0.07,
+          "prev_count": 458,
+          "prev_weight": 2.25,
+          "current_count": 480,
+          "current_weight": 2.32,
+          "event": "增持"
+        },
+        {
+          "code": "3036",
+          "name": "文曄科技",
+          "count_change": 18,
+          "weight_change": 0.01,
+          "prev_count": 371,
+          "prev_weight": 0.9,
+          "current_count": 389,
+          "current_weight": 0.91,
+          "event": "增持"
+        },
+        {
+          "code": "4915",
+          "name": "致伸科技",
+          "count_change": 16,
+          "weight_change": 0.02,
+          "prev_count": 332,
+          "prev_weight": 0.46,
+          "current_count": 348,
+          "current_weight": 0.48,
+          "event": "增持"
+        },
+        {
+          "code": "3044",
+          "name": "健鼎科技",
+          "count_change": 14,
+          "weight_change": -0.01,
+          "prev_count": 289,
+          "prev_weight": 1.53,
+          "current_count": 303,
+          "current_weight": 1.52,
+          "event": "增持"
+        },
+        {
+          "code": "2308",
+          "name": "台達電子工業",
+          "count_change": 13,
+          "weight_change": 0.14,
+          "prev_count": 259,
+          "prev_weight": 3.97,
+          "current_count": 272,
+          "current_weight": 4.11,
+          "event": "增持"
+        },
+        {
+          "code": "5234",
+          "name": "達興材料",
+          "count_change": 11,
+          "weight_change": 0.0,
+          "prev_count": 231,
+          "prev_weight": 1.39,
+          "current_count": 242,
+          "current_weight": 1.39,
+          "event": "增持"
+        },
+        {
+          "code": "3211",
+          "name": "順達科技",
+          "count_change": 11,
+          "weight_change": 0.03,
+          "prev_count": 225,
+          "prev_weight": 1.05,
+          "current_count": 236,
+          "current_weight": 1.08,
+          "event": "增持"
+        },
+        {
+          "code": "8114",
+          "name": "振樺電子",
+          "count_change": 10,
+          "weight_change": 0.01,
+          "prev_count": 196,
+          "prev_weight": 0.64,
+          "current_count": 206,
+          "current_weight": 0.65,
+          "event": "增持"
+        },
+        {
+          "code": "2376",
+          "name": "技嘉科技",
+          "count_change": 9,
+          "weight_change": 0.02,
+          "prev_count": 174,
+          "prev_weight": 0.76,
+          "current_count": 183,
+          "current_weight": 0.78,
+          "event": "增持"
+        },
+        {
+          "code": "3526",
+          "name": "凡甲科技",
+          "count_change": 9,
+          "weight_change": 0.04,
+          "prev_count": 178,
+          "prev_weight": 0.7,
+          "current_count": 187,
+          "current_weight": 0.74,
+          "event": "增持"
+        },
+        {
+          "code": "2379",
+          "name": "瑞昱半導體",
+          "count_change": 9,
+          "weight_change": 0.07,
+          "prev_count": 178,
+          "prev_weight": 1.41,
+          "current_count": 187,
+          "current_weight": 1.48,
+          "event": "增持"
+        },
+        {
+          "code": "2723",
+          "name": "開曼美食達人",
+          "count_change": 8,
+          "weight_change": 0.01,
+          "prev_count": 156,
+          "prev_weight": 0.17,
+          "current_count": 164,
+          "current_weight": 0.18,
+          "event": "增持"
+        },
+        {
+          "code": "6442",
+          "name": "光紅建聖",
+          "count_change": 8,
+          "weight_change": 0.08,
+          "prev_count": 158,
+          "prev_weight": 2.23,
+          "current_count": 166,
+          "current_weight": 2.31,
+          "event": "增持"
+        }
+      ],
+      "top_count_down": [],
+      "top_weight_up": [
+        {
+          "code": "6223",
+          "name": "旺矽科技",
+          "count_change": 3,
+          "weight_change": 0.15,
+          "prev_count": 68,
+          "prev_weight": 2.15,
+          "current_count": 71,
+          "current_weight": 2.3,
+          "event": "增持"
+        },
+        {
+          "code": "2308",
+          "name": "台達電子工業",
+          "count_change": 13,
+          "weight_change": 0.14,
+          "prev_count": 259,
+          "prev_weight": 3.97,
+          "current_count": 272,
+          "current_weight": 4.11,
+          "event": "增持"
+        },
+        {
+          "code": "2881",
+          "name": "富邦金融控股",
+          "count_change": 83,
+          "weight_change": 0.08,
+          "prev_count": 1681,
+          "prev_weight": 2.42,
+          "current_count": 1764,
+          "current_weight": 2.5,
+          "event": "增持"
+        },
+        {
+          "code": "2891",
+          "name": "中國信託金融控股",
+          "count_change": 179,
+          "weight_change": 0.08,
+          "prev_count": 3649,
+          "prev_weight": 2.43,
+          "current_count": 3828,
+          "current_weight": 2.51,
+          "event": "增持"
+        },
+        {
+          "code": "3665",
+          "name": "貿聯控股（BizLink Holding In",
+          "count_change": 0,
+          "weight_change": 0.08,
+          "prev_count": 111,
+          "prev_weight": 2.39,
+          "current_count": 111,
+          "current_weight": 2.47,
+          "event": "持平"
+        },
+        {
+          "code": "6442",
+          "name": "光紅建聖",
+          "count_change": 8,
+          "weight_change": 0.08,
+          "prev_count": 158,
+          "prev_weight": 2.23,
+          "current_count": 166,
+          "current_weight": 2.31,
+          "event": "增持"
+        },
+        {
+          "code": "5439",
+          "name": "高技企業",
+          "count_change": 22,
+          "weight_change": 0.07,
+          "prev_count": 458,
+          "prev_weight": 2.25,
+          "current_count": 480,
+          "current_weight": 2.32,
+          "event": "增持"
+        },
+        {
+          "code": "2379",
+          "name": "瑞昱半導體",
+          "count_change": 9,
+          "weight_change": 0.07,
+          "prev_count": 178,
+          "prev_weight": 1.41,
+          "current_count": 187,
+          "current_weight": 1.48,
+          "event": "增持"
+        },
+        {
+          "code": "2408",
+          "name": "南亞科技",
+          "count_change": 32,
+          "weight_change": 0.07,
+          "prev_count": 661,
+          "prev_weight": 1.53,
+          "current_count": 693,
+          "current_weight": 1.6,
+          "event": "增持"
+        },
+        {
+          "code": "3653",
+          "name": "健策精密工業",
+          "count_change": 2,
+          "weight_change": 0.06,
+          "prev_count": 49,
+          "prev_weight": 1.68,
+          "current_count": 51,
+          "current_weight": 1.74,
+          "event": "增持"
+        },
+        {
+          "code": "2884",
+          "name": "玉山金融控股",
+          "count_change": 176,
+          "weight_change": 0.06,
+          "prev_count": 3571,
+          "prev_weight": 1.68,
+          "current_count": 3747,
+          "current_weight": 1.74,
+          "event": "增持"
+        },
+        {
+          "code": "2027",
+          "name": "大成不銹鋼工業",
+          "count_change": 69,
+          "weight_change": 0.04,
+          "prev_count": 1420,
+          "prev_weight": 0.81,
+          "current_count": 1489,
+          "current_weight": 0.85,
+          "event": "增持"
+        },
+        {
+          "code": "3526",
+          "name": "凡甲科技",
+          "count_change": 9,
+          "weight_change": 0.04,
+          "prev_count": 178,
+          "prev_weight": 0.7,
+          "current_count": 187,
+          "current_weight": 0.74,
+          "event": "增持"
+        },
+        {
+          "code": "6561",
+          "name": "是方電訊",
+          "count_change": 5,
+          "weight_change": 0.04,
+          "prev_count": 110,
+          "prev_weight": 0.61,
+          "current_count": 115,
+          "current_weight": 0.65,
+          "event": "增持"
+        },
+        {
+          "code": "5904",
+          "name": "寶雅國際",
+          "count_change": 5,
+          "weight_change": 0.03,
+          "prev_count": 104,
+          "prev_weight": 0.75,
+          "current_count": 109,
+          "current_weight": 0.78,
+          "event": "增持"
+        },
+        {
+          "code": "3293",
+          "name": "鈊象電子",
+          "count_change": 3,
+          "weight_change": 0.03,
+          "prev_count": 56,
+          "prev_weight": 0.64,
+          "current_count": 59,
+          "current_weight": 0.67,
+          "event": "增持"
+        },
+        {
+          "code": "3231",
+          "name": "緯創資通",
+          "count_change": 35,
+          "weight_change": 0.03,
+          "prev_count": 712,
+          "prev_weight": 1.58,
+          "current_count": 747,
+          "current_weight": 1.61,
+          "event": "增持"
+        },
+        {
+          "code": "6510",
+          "name": "中華精測科技",
+          "count_change": 2,
+          "weight_change": 0.03,
+          "prev_count": 39,
+          "prev_weight": 1,
+          "current_count": 41,
+          "current_weight": 1.03,
+          "event": "增持"
+        },
+        {
+          "code": "5434",
+          "name": "崇越科技",
+          "count_change": 7,
+          "weight_change": 0.03,
+          "prev_count": 145,
+          "prev_weight": 0.76,
+          "current_count": 152,
+          "current_weight": 0.79,
+          "event": "增持"
+        },
+        {
+          "code": "3211",
+          "name": "順達科技",
+          "count_change": 11,
+          "weight_change": 0.03,
+          "prev_count": 225,
+          "prev_weight": 1.05,
+          "current_count": 236,
+          "current_weight": 1.08,
+          "event": "增持"
+        }
+      ],
+      "top_weight_down": [
+        {
+          "code": "6669",
+          "name": "緯穎科技服務",
+          "count_change": 0,
+          "weight_change": -0.2,
+          "prev_count": 50,
+          "prev_weight": 3.39,
+          "current_count": 50,
+          "current_weight": 3.19,
+          "event": "持平"
+        },
+        {
+          "code": "2059",
+          "name": "川湖科技",
+          "count_change": 0,
+          "weight_change": -0.16,
+          "prev_count": 42,
+          "prev_weight": 2.84,
+          "current_count": 42,
+          "current_weight": 2.68,
+          "event": "持平"
+        },
+        {
+          "code": "2383",
+          "name": "台光電子材料",
+          "count_change": 0,
+          "weight_change": -0.16,
+          "prev_count": 123,
+          "prev_weight": 2.8,
+          "current_count": 123,
+          "current_weight": 2.64,
+          "event": "持平"
+        },
+        {
+          "code": "2345",
+          "name": "智邦科技",
+          "count_change": 0,
+          "weight_change": -0.15,
+          "prev_count": 183,
+          "prev_weight": 3.03,
+          "current_count": 183,
+          "current_weight": 2.88,
+          "event": "持平"
+        },
+        {
+          "code": "6274",
+          "name": "台燿科技",
+          "count_change": 0,
+          "weight_change": -0.09,
+          "prev_count": 326,
+          "prev_weight": 2.03,
+          "current_count": 326,
+          "current_weight": 1.94,
+          "event": "持平"
+        },
+        {
+          "code": "2368",
+          "name": "金像電子（股）公司",
+          "count_change": 0,
+          "weight_change": -0.08,
+          "prev_count": 361,
+          "prev_weight": 2.71,
+          "current_count": 361,
+          "current_weight": 2.63,
+          "event": "持平"
+        },
+        {
+          "code": "202511TX",
+          "name": "台灣證交所加權股價指數",
+          "count_change": 0,
+          "weight_change": -0.08,
+          "prev_count": 0,
+          "prev_weight": 7.29,
+          "current_count": 0,
+          "current_weight": 7.21,
+          "event": "持平"
+        },
+        {
+          "code": "6805",
+          "name": "富世達",
+          "count_change": 0,
+          "weight_change": -0.08,
+          "prev_count": 82,
+          "prev_weight": 1.88,
+          "current_count": 82,
+          "current_weight": 1.8,
+          "event": "持平"
+        },
+        {
+          "code": "3017",
+          "name": "奇鋐科技",
+          "count_change": 0,
+          "weight_change": -0.07,
+          "prev_count": 140,
+          "prev_weight": 3.28,
+          "current_count": 140,
+          "current_weight": 3.21,
+          "event": "持平"
+        },
+        {
+          "code": "2454",
+          "name": "聯發科技",
+          "count_change": 0,
+          "weight_change": -0.07,
+          "prev_count": 137,
+          "prev_weight": 2.77,
+          "current_count": 137,
+          "current_weight": 2.7,
+          "event": "持平"
+        },
+        {
+          "code": "6515",
+          "name": "穎崴科技",
+          "count_change": 0,
+          "weight_change": -0.06,
+          "prev_count": 35,
+          "prev_weight": 1.37,
+          "current_count": 35,
+          "current_weight": 1.31,
+          "event": "持平"
+        },
+        {
+          "code": "2317",
+          "name": "鴻海精密工業",
+          "count_change": 0,
+          "weight_change": -0.06,
+          "prev_count": 1048,
+          "prev_weight": 4.07,
+          "current_count": 1048,
+          "current_weight": 4.01,
+          "event": "持平"
+        },
+        {
+          "code": "3661",
+          "name": "世芯電子",
+          "count_change": 0,
+          "weight_change": -0.04,
+          "prev_count": 21,
+          "prev_weight": 1.21,
+          "current_count": 21,
+          "current_weight": 1.17,
+          "event": "持平"
+        },
+        {
+          "code": "2382",
+          "name": "廣達電腦",
+          "count_change": 0,
+          "weight_change": -0.04,
+          "prev_count": 454,
+          "prev_weight": 2.08,
+          "current_count": 454,
+          "current_weight": 2.04,
+          "event": "持平"
+        },
+        {
+          "code": "4749",
+          "name": "新應材",
+          "count_change": 0,
+          "weight_change": -0.03,
+          "prev_count": 72,
+          "prev_weight": 0.95,
+          "current_count": 72,
+          "current_weight": 0.92,
+          "event": "持平"
+        },
+        {
+          "code": "2449",
+          "name": "京元電子",
+          "count_change": 0,
+          "weight_change": -0.03,
+          "prev_count": 360,
+          "prev_weight": 1.23,
+          "current_count": 360,
+          "current_weight": 1.2,
+          "event": "持平"
+        },
+        {
+          "code": "2330",
+          "name": "台灣積體電路製造",
+          "count_change": 0,
+          "weight_change": -0.03,
+          "prev_count": 321,
+          "prev_weight": 7.37,
+          "current_count": 321,
+          "current_weight": 7.34,
+          "event": "持平"
+        },
+        {
+          "code": "1519",
+          "name": "華城電機",
+          "count_change": 0,
+          "weight_change": -0.02,
+          "prev_count": 92,
+          "prev_weight": 1.1,
+          "current_count": 92,
+          "current_weight": 1.08,
+          "event": "持平"
+        },
+        {
+          "code": "2360",
+          "name": "致茂電子",
+          "count_change": 0,
+          "weight_change": -0.02,
+          "prev_count": 102,
+          "prev_weight": 1.2,
+          "current_count": 102,
+          "current_weight": 1.18,
+          "event": "持平"
+        },
+        {
+          "code": "3044",
+          "name": "健鼎科技",
+          "count_change": 14,
+          "weight_change": -0.01,
+          "prev_count": 289,
+          "prev_weight": 1.53,
+          "current_count": 303,
+          "current_weight": 1.52,
+          "event": "增持"
+        }
+      ],
+      "new_positions": [],
+      "closed_positions": []
+    },
+    "summary": {
+      "date": "2025/11/07",
+      "prev_date": "2025/11/06",
+      "new_count": 0,
+      "closed_count": 0,
+      "add_count": 29,
+      "reduce_count": 0,
+      "net_count_change": 797,
+      "net_weight_change": -0.10999999999999993
+    }
+  },
+  "00981A": {
+    "name": "統一台股增長",
+    "latest_date": "2025/11/07",
+    "previous_date": "2025/11/06",
+    "price": "15.51",
+    "change_value": "-0.33",
+    "change_percent": "-2.08%",
+    "daily_changes": [
+      {
+        "code": "1319",
+        "name": "東陽",
+        "type": "新增",
+        "count_change": 573,
+        "weight_change": 0.2,
+        "prev_count": 0,
+        "prev_weight": 0.0,
+        "current_count": 573,
+        "current_weight": 0.2
+      },
+      {
+        "code": "2354",
+        "name": "鴻準",
+        "type": "增持",
+        "count_change": 80,
+        "weight_change": 0.0,
+        "prev_count": 3665,
+        "prev_weight": 0.89,
+        "current_count": 3745,
+        "current_weight": 0.89
+      },
+      {
+        "code": "2317",
+        "name": "鴻海",
+        "type": "增持",
+        "count_change": 80,
+        "weight_change": -0.03,
+        "prev_count": 3890,
+        "prev_weight": 3.35,
+        "current_count": 3970,
+        "current_weight": 3.32
+      },
+      {
+        "code": "2449",
+        "name": "京元電子",
+        "type": "增持",
+        "count_change": 74,
+        "weight_change": -0.06,
+        "prev_count": 4363,
+        "prev_weight": 3.3,
+        "current_count": 4437,
+        "current_weight": 3.24
+      },
+      {
+        "code": "6274",
+        "name": "台燿",
+        "type": "增持",
+        "count_change": 50,
+        "weight_change": -0.13,
+        "prev_count": 2460,
+        "prev_weight": 3.4,
+        "current_count": 2510,
+        "current_weight": 3.27
+      },
+      {
+        "code": "3665",
+        "name": "貿聯-KY",
+        "type": "增持",
+        "count_change": 35,
+        "weight_change": 0.26,
+        "prev_count": 1129,
+        "prev_weight": 5.38,
+        "current_count": 1164,
+        "current_weight": 5.64
+      },
+      {
+        "code": "6515",
+        "name": "穎崴",
+        "type": "刪除",
+        "count_change": -1,
+        "weight_change": -0.01,
+        "prev_count": 1,
+        "prev_weight": 0.01,
+        "current_count": 0,
+        "current_weight": 0.0
+      }
+    ],
+    "strategy_params": {
+      "trend_window": 10,
+      "min_increase_events": 3,
+      "min_decrease_events": 3,
+      "entry_threshold_shares": 1000
+    },
+    "strategy": {
+      "increasing": [
+        {
+          "code": "8299",
+          "name": "群聯",
+          "events": 8,
+          "window_days": 10,
+          "net_increase": 453,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 592
+        },
+        {
+          "code": "6669",
+          "name": "緯穎",
+          "events": 8,
+          "window_days": 10,
+          "net_increase": 145,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 369
+        },
+        {
+          "code": "2308",
+          "name": "台達電",
+          "events": 7,
+          "window_days": 10,
+          "net_increase": 636,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 1758
+        },
+        {
+          "code": "3661",
+          "name": "世芯-KY",
+          "events": 7,
+          "window_days": 10,
+          "net_increase": 114,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 281
+        },
+        {
+          "code": "2368",
+          "name": "金像電",
+          "events": 6,
+          "window_days": 10,
+          "net_increase": 585,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 2608
+        },
+        {
+          "code": "2330",
+          "name": "台積電",
+          "events": 6,
+          "window_days": 10,
+          "net_increase": 492,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 1834
+        },
+        {
+          "code": "2383",
+          "name": "台光電",
+          "events": 6,
+          "window_days": 10,
+          "net_increase": 307,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 1217
+        },
+        {
+          "code": "6223",
+          "name": "旺矽",
+          "events": 6,
+          "window_days": 10,
+          "net_increase": 140,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 696
+        },
+        {
+          "code": "3231",
+          "name": "緯創",
+          "events": 5,
+          "window_days": 10,
+          "net_increase": 696,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 3944
+        },
+        {
+          "code": "2354",
+          "name": "鴻準",
+          "events": 5,
+          "window_days": 10,
+          "net_increase": 461,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 3745
+        },
+        {
+          "code": "6274",
+          "name": "台燿",
+          "events": 5,
+          "window_days": 10,
+          "net_increase": 590,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 2510
+        },
+        {
+          "code": "6191",
+          "name": "精成科",
+          "events": 5,
+          "window_days": 10,
+          "net_increase": 782,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 2293
+        },
+        {
+          "code": "4958",
+          "name": "臻鼎-KY",
+          "events": 5,
+          "window_days": 10,
+          "net_increase": 72,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 1654
+        },
+        {
+          "code": "2345",
+          "name": "智邦",
+          "events": 5,
+          "window_days": 10,
+          "net_increase": 325,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 1650
+        },
+        {
+          "code": "3017",
+          "name": "奇鋐",
+          "events": 5,
+          "window_days": 10,
+          "net_increase": 173,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 1432
+        },
+        {
+          "code": "3515",
+          "name": "華擎",
+          "events": 5,
+          "window_days": 10,
+          "net_increase": 39,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 999
+        },
+        {
+          "code": "3406",
+          "name": "玉晶光",
+          "events": 5,
+          "window_days": 10,
+          "net_increase": 6,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 733
+        },
+        {
+          "code": "1560",
+          "name": "中砂",
+          "events": 5,
+          "window_days": 10,
+          "net_increase": 5,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 515
+        },
+        {
+          "code": "5536",
+          "name": "聖暉",
+          "events": 5,
+          "window_days": 10,
+          "net_increase": 152,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 367
+        },
+        {
+          "code": "2059",
+          "name": "川湖",
+          "events": 5,
+          "window_days": 10,
+          "net_increase": 63,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 253
+        },
+        {
+          "code": "3533",
+          "name": "嘉澤",
+          "events": 5,
+          "window_days": 10,
+          "net_increase": 5,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 244
+        },
+        {
+          "code": "5274",
+          "name": "信驊",
+          "events": 5,
+          "window_days": 10,
+          "net_increase": 20,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 55
+        },
+        {
+          "code": "2449",
+          "name": "京元電子",
+          "events": 4,
+          "window_days": 10,
+          "net_increase": 458,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 4437
+        },
+        {
+          "code": "2317",
+          "name": "鴻海",
+          "events": 4,
+          "window_days": 10,
+          "net_increase": -603,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 3970
+        },
+        {
+          "code": "3665",
+          "name": "貿聯-KY",
+          "events": 4,
+          "window_days": 10,
+          "net_increase": -35,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 1164
+        },
+        {
+          "code": "8210",
+          "name": "勤誠",
+          "events": 4,
+          "window_days": 10,
+          "net_increase": 26,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 857
+        },
+        {
+          "code": "3211",
+          "name": "順達",
+          "events": 4,
+          "window_days": 10,
+          "net_increase": 57,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 467
+        },
+        {
+          "code": "3653",
+          "name": "健策",
+          "events": 4,
+          "window_days": 10,
+          "net_increase": 6,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 296
+        },
+        {
+          "code": "8996",
+          "name": "高力",
+          "events": 3,
+          "window_days": 10,
+          "net_increase": 22,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 127
+        }
+      ],
+      "decreasing": [
+        {
+          "code": "3376",
+          "name": "新日興",
+          "events": 3,
+          "window_days": 10,
+          "net_decrease": 912,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 76
+        }
+      ],
+      "new_positions": [
+        {
+          "code": "1319",
+          "name": "東陽",
+          "entry_date": "2025/11/07",
+          "current_count": 573
+        }
+      ],
+      "closed_positions": [
+        {
+          "code": "2327",
+          "name": "國巨",
+          "exit_date": "2025/11/07"
+        },
+        {
+          "code": "1303",
+          "name": "南亞",
+          "exit_date": "2025/11/07"
+        }
+      ]
+    },
+    "ranks": {
+      "top_count_up": [
+        {
+          "code": "1319",
+          "name": "東陽",
+          "count_change": 573,
+          "weight_change": 0.2,
+          "prev_count": 0,
+          "prev_weight": 0.0,
+          "current_count": 573,
+          "current_weight": 0.2,
+          "event": "新增"
+        },
+        {
+          "code": "2354",
+          "name": "鴻準",
+          "count_change": 80,
+          "weight_change": 0.0,
+          "prev_count": 3665,
+          "prev_weight": 0.89,
+          "current_count": 3745,
+          "current_weight": 0.89,
+          "event": "增持"
+        },
+        {
+          "code": "2317",
+          "name": "鴻海",
+          "count_change": 80,
+          "weight_change": -0.03,
+          "prev_count": 3890,
+          "prev_weight": 3.35,
+          "current_count": 3970,
+          "current_weight": 3.32,
+          "event": "增持"
+        },
+        {
+          "code": "2449",
+          "name": "京元電子",
+          "count_change": 74,
+          "weight_change": -0.06,
+          "prev_count": 4363,
+          "prev_weight": 3.3,
+          "current_count": 4437,
+          "current_weight": 3.24,
+          "event": "增持"
+        },
+        {
+          "code": "6274",
+          "name": "台燿",
+          "count_change": 50,
+          "weight_change": -0.13,
+          "prev_count": 2460,
+          "prev_weight": 3.4,
+          "current_count": 2510,
+          "current_weight": 3.27,
+          "event": "增持"
+        },
+        {
+          "code": "2368",
+          "name": "金像電",
+          "count_change": 43,
+          "weight_change": -0.12,
+          "prev_count": 2565,
+          "prev_weight": 4.27,
+          "current_count": 2608,
+          "current_weight": 4.15,
+          "event": "增持"
+        },
+        {
+          "code": "6191",
+          "name": "精成科",
+          "count_change": 40,
+          "weight_change": -0.03,
+          "prev_count": 2253,
+          "prev_weight": 1.01,
+          "current_count": 2293,
+          "current_weight": 0.98,
+          "event": "增持"
+        },
+        {
+          "code": "2330",
+          "name": "台積電",
+          "count_change": 40,
+          "weight_change": 0.04,
+          "prev_count": 1794,
+          "prev_weight": 9.13,
+          "current_count": 1834,
+          "current_weight": 9.17,
+          "event": "增持"
+        },
+        {
+          "code": "8210",
+          "name": "勤誠",
+          "count_change": 35,
+          "weight_change": 0.12,
+          "prev_count": 822,
+          "prev_weight": 2.84,
+          "current_count": 857,
+          "current_weight": 2.96,
+          "event": "增持"
+        },
+        {
+          "code": "3665",
+          "name": "貿聯-KY",
+          "count_change": 35,
+          "weight_change": 0.26,
+          "prev_count": 1129,
+          "prev_weight": 5.38,
+          "current_count": 1164,
+          "current_weight": 5.64,
+          "event": "增持"
+        },
+        {
+          "code": "2308",
+          "name": "台達電",
+          "count_change": 33,
+          "weight_change": -0.05,
+          "prev_count": 1725,
+          "prev_weight": 5.86,
+          "current_count": 1758,
+          "current_weight": 5.81,
+          "event": "增持"
+        },
+        {
+          "code": "3017",
+          "name": "奇鋐",
+          "count_change": 24,
+          "weight_change": -0.14,
+          "prev_count": 1408,
+          "prev_weight": 7.32,
+          "current_count": 1432,
+          "current_weight": 7.18,
+          "event": "增持"
+        },
+        {
+          "code": "2345",
+          "name": "智邦",
+          "count_change": 15,
+          "weight_change": -0.31,
+          "prev_count": 1635,
+          "prev_weight": 5.99,
+          "current_count": 1650,
+          "current_weight": 5.68,
+          "event": "增持"
+        },
+        {
+          "code": "8299",
+          "name": "群聯",
+          "count_change": 12,
+          "weight_change": 0.0,
+          "prev_count": 580,
+          "prev_weight": 2.34,
+          "current_count": 592,
+          "current_weight": 2.34,
+          "event": "增持"
+        },
+        {
+          "code": "6223",
+          "name": "旺矽",
+          "count_change": 11,
+          "weight_change": 0.12,
+          "prev_count": 685,
+          "prev_weight": 4.81,
+          "current_count": 696,
+          "current_weight": 4.93,
+          "event": "增持"
+        },
+        {
+          "code": "8996",
+          "name": "高力",
+          "count_change": 10,
+          "weight_change": 0.0,
+          "prev_count": 117,
+          "prev_weight": 0.27,
+          "current_count": 127,
+          "current_weight": 0.27,
+          "event": "增持"
+        },
+        {
+          "code": "6669",
+          "name": "緯穎",
+          "count_change": 6,
+          "weight_change": -0.3,
+          "prev_count": 363,
+          "prev_weight": 5.45,
+          "current_count": 369,
+          "current_weight": 5.15,
+          "event": "增持"
+        },
+        {
+          "code": "4958",
+          "name": "臻鼎-KY",
+          "count_change": 5,
+          "weight_change": -0.03,
+          "prev_count": 1649,
+          "prev_weight": 0.9,
+          "current_count": 1654,
+          "current_weight": 0.87,
+          "event": "增持"
+        },
+        {
+          "code": "3661",
+          "name": "世芯-KY",
+          "count_change": 5,
+          "weight_change": -0.09,
+          "prev_count": 276,
+          "prev_weight": 3.52,
+          "current_count": 281,
+          "current_weight": 3.43,
+          "event": "增持"
+        },
+        {
+          "code": "6805",
+          "name": "富世達",
+          "count_change": 5,
+          "weight_change": -0.14,
+          "prev_count": 594,
+          "prev_weight": 3.01,
+          "current_count": 599,
+          "current_weight": 2.87,
+          "event": "增持"
+        }
+      ],
+      "top_count_down": [
+        {
+          "code": "6515",
+          "name": "穎崴",
+          "count_change": -1,
+          "weight_change": -0.01,
+          "prev_count": 1,
+          "prev_weight": 0.01,
+          "current_count": 0,
+          "current_weight": 0.0,
+          "event": "刪除"
+        }
+      ],
+      "top_weight_up": [
+        {
+          "code": "3665",
+          "name": "貿聯-KY",
+          "count_change": 35,
+          "weight_change": 0.26,
+          "prev_count": 1129,
+          "prev_weight": 5.38,
+          "current_count": 1164,
+          "current_weight": 5.64,
+          "event": "增持"
+        },
+        {
+          "code": "1319",
+          "name": "東陽",
+          "count_change": 573,
+          "weight_change": 0.2,
+          "prev_count": 0,
+          "prev_weight": 0.0,
+          "current_count": 573,
+          "current_weight": 0.2,
+          "event": "新增"
+        },
+        {
+          "code": "6223",
+          "name": "旺矽",
+          "count_change": 11,
+          "weight_change": 0.12,
+          "prev_count": 685,
+          "prev_weight": 4.81,
+          "current_count": 696,
+          "current_weight": 4.93,
+          "event": "增持"
+        },
+        {
+          "code": "8210",
+          "name": "勤誠",
+          "count_change": 35,
+          "weight_change": 0.12,
+          "prev_count": 822,
+          "prev_weight": 2.84,
+          "current_count": 857,
+          "current_weight": 2.96,
+          "event": "增持"
+        },
+        {
+          "code": "2330",
+          "name": "台積電",
+          "count_change": 40,
+          "weight_change": 0.04,
+          "prev_count": 1794,
+          "prev_weight": 9.13,
+          "current_count": 1834,
+          "current_weight": 9.17,
+          "event": "增持"
+        }
+      ],
+      "top_weight_down": [
+        {
+          "code": "2383",
+          "name": "台光電",
+          "count_change": 3,
+          "weight_change": -0.41,
+          "prev_count": 1214,
+          "prev_weight": 6.12,
+          "current_count": 1217,
+          "current_weight": 5.71,
+          "event": "增持"
+        },
+        {
+          "code": "2345",
+          "name": "智邦",
+          "count_change": 15,
+          "weight_change": -0.31,
+          "prev_count": 1635,
+          "prev_weight": 5.99,
+          "current_count": 1650,
+          "current_weight": 5.68,
+          "event": "增持"
+        },
+        {
+          "code": "6669",
+          "name": "緯穎",
+          "count_change": 6,
+          "weight_change": -0.3,
+          "prev_count": 363,
+          "prev_weight": 5.45,
+          "current_count": 369,
+          "current_weight": 5.15,
+          "event": "增持"
+        },
+        {
+          "code": "2059",
+          "name": "川湖",
+          "count_change": 1,
+          "weight_change": -0.24,
+          "prev_count": 252,
+          "prev_weight": 3.77,
+          "current_count": 253,
+          "current_weight": 3.53,
+          "event": "增持"
+        },
+        {
+          "code": "3017",
+          "name": "奇鋐",
+          "count_change": 24,
+          "weight_change": -0.14,
+          "prev_count": 1408,
+          "prev_weight": 7.32,
+          "current_count": 1432,
+          "current_weight": 7.18,
+          "event": "增持"
+        },
+        {
+          "code": "6805",
+          "name": "富世達",
+          "count_change": 5,
+          "weight_change": -0.14,
+          "prev_count": 594,
+          "prev_weight": 3.01,
+          "current_count": 599,
+          "current_weight": 2.87,
+          "event": "增持"
+        },
+        {
+          "code": "6274",
+          "name": "台燿",
+          "count_change": 50,
+          "weight_change": -0.13,
+          "prev_count": 2460,
+          "prev_weight": 3.4,
+          "current_count": 2510,
+          "current_weight": 3.27,
+          "event": "增持"
+        },
+        {
+          "code": "2368",
+          "name": "金像電",
+          "count_change": 43,
+          "weight_change": -0.12,
+          "prev_count": 2565,
+          "prev_weight": 4.27,
+          "current_count": 2608,
+          "current_weight": 4.15,
+          "event": "增持"
+        },
+        {
+          "code": "3661",
+          "name": "世芯-KY",
+          "count_change": 5,
+          "weight_change": -0.09,
+          "prev_count": 276,
+          "prev_weight": 3.52,
+          "current_count": 281,
+          "current_weight": 3.43,
+          "event": "增持"
+        },
+        {
+          "code": "3231",
+          "name": "緯創",
+          "count_change": 1,
+          "weight_change": -0.09,
+          "prev_count": 3943,
+          "prev_weight": 1.95,
+          "current_count": 3944,
+          "current_weight": 1.86,
+          "event": "增持"
+        },
+        {
+          "code": "3515",
+          "name": "華擎",
+          "count_change": 1,
+          "weight_change": -0.09,
+          "prev_count": 998,
+          "prev_weight": 1.12,
+          "current_count": 999,
+          "current_weight": 1.03,
+          "event": "增持"
+        },
+        {
+          "code": "2449",
+          "name": "京元電子",
+          "count_change": 74,
+          "weight_change": -0.06,
+          "prev_count": 4363,
+          "prev_weight": 3.3,
+          "current_count": 4437,
+          "current_weight": 3.24,
+          "event": "增持"
+        },
+        {
+          "code": "3533",
+          "name": "嘉澤",
+          "count_change": 1,
+          "weight_change": -0.05,
+          "prev_count": 243,
+          "prev_weight": 1.17,
+          "current_count": 244,
+          "current_weight": 1.12,
+          "event": "增持"
+        },
+        {
+          "code": "2308",
+          "name": "台達電",
+          "count_change": 33,
+          "weight_change": -0.05,
+          "prev_count": 1725,
+          "prev_weight": 5.86,
+          "current_count": 1758,
+          "current_weight": 5.81,
+          "event": "增持"
+        },
+        {
+          "code": "4958",
+          "name": "臻鼎-KY",
+          "count_change": 5,
+          "weight_change": -0.03,
+          "prev_count": 1649,
+          "prev_weight": 0.9,
+          "current_count": 1654,
+          "current_weight": 0.87,
+          "event": "增持"
+        },
+        {
+          "code": "6191",
+          "name": "精成科",
+          "count_change": 40,
+          "weight_change": -0.03,
+          "prev_count": 2253,
+          "prev_weight": 1.01,
+          "current_count": 2293,
+          "current_weight": 0.98,
+          "event": "增持"
+        },
+        {
+          "code": "2317",
+          "name": "鴻海",
+          "count_change": 80,
+          "weight_change": -0.03,
+          "prev_count": 3890,
+          "prev_weight": 3.35,
+          "current_count": 3970,
+          "current_weight": 3.32,
+          "event": "增持"
+        },
+        {
+          "code": "1560",
+          "name": "中砂",
+          "count_change": 1,
+          "weight_change": -0.02,
+          "prev_count": 514,
+          "prev_weight": 0.55,
+          "current_count": 515,
+          "current_weight": 0.53,
+          "event": "增持"
+        },
+        {
+          "code": "3406",
+          "name": "玉晶光",
+          "count_change": 1,
+          "weight_change": -0.02,
+          "prev_count": 732,
+          "prev_weight": 1.09,
+          "current_count": 733,
+          "current_weight": 1.07,
+          "event": "增持"
+        },
+        {
+          "code": "5274",
+          "name": "信驊",
+          "count_change": 1,
+          "weight_change": -0.02,
+          "prev_count": 54,
+          "prev_weight": 1.09,
+          "current_count": 55,
+          "current_weight": 1.07,
+          "event": "增持"
+        }
+      ],
+      "new_positions": [
+        {
+          "code": "1319",
+          "name": "東陽",
+          "count_change": 573,
+          "weight_change": 0.2,
+          "prev_count": 0,
+          "prev_weight": 0.0,
+          "current_count": 573,
+          "current_weight": 0.2,
+          "event": "新增"
+        }
+      ],
+      "closed_positions": [
+        {
+          "code": "6515",
+          "name": "穎崴",
+          "count_change": -1,
+          "weight_change": -0.01,
+          "prev_count": 1,
+          "prev_weight": 0.01,
+          "current_count": 0,
+          "current_weight": 0.0,
+          "event": "刪除"
+        }
+      ]
+    },
+    "summary": {
+      "date": "2025/11/07",
+      "prev_date": "2025/11/06",
+      "new_count": 1,
+      "closed_count": 1,
+      "add_count": 30,
+      "reduce_count": 0,
+      "net_count_change": 1191,
+      "net_weight_change": -1.67
+    }
+  },
+  "00982A": {
+    "name": "群益台灣精選強棒主動式ETF基金",
+    "latest_date": "2025/11/07",
+    "previous_date": "2025/11/06",
+    "price": "14.24",
+    "change_value": "-0.28",
+    "change_percent": "-1.93%",
+    "daily_changes": [
+      {
+        "code": "2316",
+        "name": "楠梓電",
+        "type": "增持",
+        "count_change": 272,
+        "weight_change": 0.07,
+        "prev_count": 3335,
+        "prev_weight": 1.54,
+        "current_count": 3607,
+        "current_weight": 1.61
+      },
+      {
+        "code": "6213",
+        "name": "聯茂",
+        "type": "增持",
+        "count_change": 223,
+        "weight_change": 0.05,
+        "prev_count": 2299,
+        "prev_weight": 1.31,
+        "current_count": 2522,
+        "current_weight": 1.36
+      },
+      {
+        "code": "8021",
+        "name": "尖點",
+        "type": "增持",
+        "count_change": 200,
+        "weight_change": 0.2,
+        "prev_count": 4963,
+        "prev_weight": 2.9,
+        "current_count": 5163,
+        "current_weight": 3.1
+      },
+      {
+        "code": "2317",
+        "name": "鴻海",
+        "type": "增持",
+        "count_change": 179,
+        "weight_change": 0.18,
+        "prev_count": 491,
+        "prev_weight": 0.58,
+        "current_count": 670,
+        "current_weight": 0.76
+      },
+      {
+        "code": "3036",
+        "name": "文曄",
+        "type": "增持",
+        "count_change": 173,
+        "weight_change": -0.02,
+        "prev_count": 3624,
+        "prev_weight": 2.67,
+        "current_count": 3797,
+        "current_weight": 2.65
+      },
+      {
+        "code": "3030",
+        "name": "德律",
+        "type": "增持",
+        "count_change": 169,
+        "weight_change": 0.0,
+        "prev_count": 3058,
+        "prev_weight": 2.32,
+        "current_count": 3227,
+        "current_weight": 2.32
+      },
+      {
+        "code": "4958",
+        "name": "臻鼎-KY",
+        "type": "增持",
+        "count_change": 168,
+        "weight_change": 0.07,
+        "prev_count": 1784,
+        "prev_weight": 1.34,
+        "current_count": 1952,
+        "current_weight": 1.41
+      },
+      {
+        "code": "2449",
+        "name": "京元電子",
+        "type": "增持",
+        "count_change": 121,
+        "weight_change": -0.02,
+        "prev_count": 3127,
+        "prev_weight": 3.26,
+        "current_count": 3248,
+        "current_weight": 3.24
+      },
+      {
+        "code": "5536",
+        "name": "聖暉",
+        "type": "增持",
+        "count_change": 94,
+        "weight_change": 0.22,
+        "prev_count": 1239,
+        "prev_weight": 4.48,
+        "current_count": 1333,
+        "current_weight": 4.7
+      },
+      {
+        "code": "3491",
+        "name": "昇達科",
+        "type": "增持",
+        "count_change": 90,
+        "weight_change": 0.15,
+        "prev_count": 374,
+        "prev_weight": 0.78,
+        "current_count": 464,
+        "current_weight": 0.93
+      },
+      {
+        "code": "3515",
+        "name": "華擎",
+        "type": "增持",
+        "count_change": 85,
+        "weight_change": -0.1,
+        "prev_count": 1605,
+        "prev_weight": 2.48,
+        "current_count": 1690,
+        "current_weight": 2.38
+      },
+      {
+        "code": "5439",
+        "name": "高技",
+        "type": "增持",
+        "count_change": 82,
+        "weight_change": 0.03,
+        "prev_count": 1580,
+        "prev_weight": 2.37,
+        "current_count": 1662,
+        "current_weight": 2.4
+      },
+      {
+        "code": "3044",
+        "name": "健鼎",
+        "type": "增持",
+        "count_change": 81,
+        "weight_change": -0.05,
+        "prev_count": 1443,
+        "prev_weight": 2.33,
+        "current_count": 1524,
+        "current_weight": 2.28
+      },
+      {
+        "code": "5234",
+        "name": "達興材料",
+        "type": "增持",
+        "count_change": 71,
+        "weight_change": -0.05,
+        "prev_count": 1402,
+        "prev_weight": 2.58,
+        "current_count": 1473,
+        "current_weight": 2.53
+      },
+      {
+        "code": "2330",
+        "name": "台積電",
+        "type": "增持",
+        "count_change": 57,
+        "weight_change": 0.15,
+        "prev_count": 1208,
+        "prev_weight": 8.48,
+        "current_count": 1265,
+        "current_weight": 8.63
+      },
+      {
+        "code": "6669",
+        "name": "緯穎",
+        "type": "增持",
+        "count_change": 36,
+        "weight_change": 0.29,
+        "prev_count": 237,
+        "prev_weight": 4.91,
+        "current_count": 273,
+        "current_weight": 5.2
+      }
+    ],
+    "strategy_params": {
+      "trend_window": 10,
+      "min_increase_events": 3,
+      "min_decrease_events": 3,
+      "entry_threshold_shares": 1000
+    },
+    "strategy": {
+      "increasing": [
+        {
+          "code": "6213",
+          "name": "聯茂",
+          "events": 8,
+          "window_days": 10,
+          "net_increase": 2306,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 2522
+        },
+        {
+          "code": "5536",
+          "name": "聖暉",
+          "events": 8,
+          "window_days": 10,
+          "net_increase": 313,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 1333
+        },
+        {
+          "code": "2360",
+          "name": "致茂",
+          "events": 8,
+          "window_days": 10,
+          "net_increase": 569,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 1253
+        },
+        {
+          "code": "3017",
+          "name": "奇鋐",
+          "events": 8,
+          "window_days": 10,
+          "net_increase": 266,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 1146
+        },
+        {
+          "code": "2383",
+          "name": "台光電",
+          "events": 8,
+          "window_days": 10,
+          "net_increase": 315,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 434
+        },
+        {
+          "code": "8021",
+          "name": "尖點",
+          "events": 7,
+          "window_days": 10,
+          "net_increase": 1256,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 5163
+        },
+        {
+          "code": "3036",
+          "name": "文曄",
+          "events": 7,
+          "window_days": 10,
+          "net_increase": 1009,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 3797
+        },
+        {
+          "code": "3030",
+          "name": "德律",
+          "events": 7,
+          "window_days": 10,
+          "net_increase": 1186,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 3227
+        },
+        {
+          "code": "3515",
+          "name": "華擎",
+          "events": 7,
+          "window_days": 10,
+          "net_increase": 484,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 1690
+        },
+        {
+          "code": "5439",
+          "name": "高技",
+          "events": 7,
+          "window_days": 10,
+          "net_increase": 461,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 1662
+        },
+        {
+          "code": "3044",
+          "name": "健鼎",
+          "events": 7,
+          "window_days": 10,
+          "net_increase": 452,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 1524
+        },
+        {
+          "code": "5234",
+          "name": "達興材料",
+          "events": 7,
+          "window_days": 10,
+          "net_increase": 409,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 1473
+        },
+        {
+          "code": "2330",
+          "name": "台積電",
+          "events": 7,
+          "window_days": 10,
+          "net_increase": 760,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 1265
+        },
+        {
+          "code": "2345",
+          "name": "智邦",
+          "events": 7,
+          "window_days": 10,
+          "net_increase": 374,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 719
+        },
+        {
+          "code": "2308",
+          "name": "台達電",
+          "events": 7,
+          "window_days": 10,
+          "net_increase": 155,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 475
+        },
+        {
+          "code": "6805",
+          "name": "富世達",
+          "events": 7,
+          "window_days": 10,
+          "net_increase": 196,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 349
+        },
+        {
+          "code": "6510",
+          "name": "精測",
+          "events": 7,
+          "window_days": 10,
+          "net_increase": 95,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 347
+        },
+        {
+          "code": "6669",
+          "name": "緯穎",
+          "events": 7,
+          "window_days": 10,
+          "net_increase": 90,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 273
+        },
+        {
+          "code": "3706",
+          "name": "神達",
+          "events": 6,
+          "window_days": 10,
+          "net_increase": 912,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 4944
+        },
+        {
+          "code": "3694",
+          "name": "海華",
+          "events": 6,
+          "window_days": 10,
+          "net_increase": 1290,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 4875
+        },
+        {
+          "code": "2449",
+          "name": "京元電子",
+          "events": 6,
+          "window_days": 10,
+          "net_increase": 663,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 3248
+        },
+        {
+          "code": "6196",
+          "name": "帆宣",
+          "events": 6,
+          "window_days": 10,
+          "net_increase": 520,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 1901
+        },
+        {
+          "code": "2368",
+          "name": "金像電",
+          "events": 6,
+          "window_days": 10,
+          "net_increase": 255,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 993
+        },
+        {
+          "code": "8210",
+          "name": "勤誠",
+          "events": 6,
+          "window_days": 10,
+          "net_increase": 132,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 634
+        },
+        {
+          "code": "2404",
+          "name": "漢唐",
+          "events": 6,
+          "window_days": 10,
+          "net_increase": 152,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 454
+        },
+        {
+          "code": "2402",
+          "name": "毅嘉",
+          "events": 5,
+          "window_days": 10,
+          "net_increase": 1484,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 6848
+        },
+        {
+          "code": "4958",
+          "name": "臻鼎-KY",
+          "events": 5,
+          "window_days": 10,
+          "net_increase": 1140,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 1952
+        },
+        {
+          "code": "2317",
+          "name": "鴻海",
+          "events": 5,
+          "window_days": 10,
+          "net_increase": -14,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 670
+        },
+        {
+          "code": "4966",
+          "name": "譜瑞-KY",
+          "events": 5,
+          "window_days": 10,
+          "net_increase": 115,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 520
+        },
+        {
+          "code": "2316",
+          "name": "楠梓電",
+          "events": 4,
+          "window_days": 10,
+          "net_increase": 544,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 3607
+        },
+        {
+          "code": "3189",
+          "name": "景碩",
+          "events": 4,
+          "window_days": 10,
+          "net_increase": 566,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 2587
+        },
+        {
+          "code": "2885",
+          "name": "元大金",
+          "events": 4,
+          "window_days": 10,
+          "net_increase": 178,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 1117
+        },
+        {
+          "code": "8996",
+          "name": "高力",
+          "events": 3,
+          "window_days": 10,
+          "net_increase": 39,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 194
+        },
+        {
+          "code": "6223",
+          "name": "旺矽",
+          "events": 3,
+          "window_days": 10,
+          "net_increase": -51,
+          "first_date": "2025/10/27",
+          "last_date": "2025/11/07",
+          "current_count": 188
+        }
+      ],
+      "decreasing": [],
+      "new_positions": [
+        {
+          "code": "3260",
+          "name": "威剛",
+          "entry_date": "2025/11/07",
+          "current_count": 800
+        }
+      ],
+      "closed_positions": []
+    },
+    "ranks": {
+      "top_count_up": [
+        {
+          "code": "2316",
+          "name": "楠梓電",
+          "count_change": 272,
+          "weight_change": 0.07,
+          "prev_count": 3335,
+          "prev_weight": 1.54,
+          "current_count": 3607,
+          "current_weight": 1.61,
+          "event": "增持"
+        },
+        {
+          "code": "6213",
+          "name": "聯茂",
+          "count_change": 223,
+          "weight_change": 0.05,
+          "prev_count": 2299,
+          "prev_weight": 1.31,
+          "current_count": 2522,
+          "current_weight": 1.36,
+          "event": "增持"
+        },
+        {
+          "code": "8021",
+          "name": "尖點",
+          "count_change": 200,
+          "weight_change": 0.2,
+          "prev_count": 4963,
+          "prev_weight": 2.9,
+          "current_count": 5163,
+          "current_weight": 3.1,
+          "event": "增持"
+        },
+        {
+          "code": "2317",
+          "name": "鴻海",
+          "count_change": 179,
+          "weight_change": 0.18,
+          "prev_count": 491,
+          "prev_weight": 0.58,
+          "current_count": 670,
+          "current_weight": 0.76,
+          "event": "增持"
+        },
+        {
+          "code": "3036",
+          "name": "文曄",
+          "count_change": 173,
+          "weight_change": -0.02,
+          "prev_count": 3624,
+          "prev_weight": 2.67,
+          "current_count": 3797,
+          "current_weight": 2.65,
+          "event": "增持"
+        },
+        {
+          "code": "3030",
+          "name": "德律",
+          "count_change": 169,
+          "weight_change": 0.0,
+          "prev_count": 3058,
+          "prev_weight": 2.32,
+          "current_count": 3227,
+          "current_weight": 2.32,
+          "event": "增持"
+        },
+        {
+          "code": "4958",
+          "name": "臻鼎-KY",
+          "count_change": 168,
+          "weight_change": 0.07,
+          "prev_count": 1784,
+          "prev_weight": 1.34,
+          "current_count": 1952,
+          "current_weight": 1.41,
+          "event": "增持"
+        },
+        {
+          "code": "2449",
+          "name": "京元電子",
+          "count_change": 121,
+          "weight_change": -0.02,
+          "prev_count": 3127,
+          "prev_weight": 3.26,
+          "current_count": 3248,
+          "current_weight": 3.24,
+          "event": "增持"
+        },
+        {
+          "code": "5536",
+          "name": "聖暉",
+          "count_change": 94,
+          "weight_change": 0.22,
+          "prev_count": 1239,
+          "prev_weight": 4.48,
+          "current_count": 1333,
+          "current_weight": 4.7,
+          "event": "增持"
+        },
+        {
+          "code": "3491",
+          "name": "昇達科",
+          "count_change": 90,
+          "weight_change": 0.15,
+          "prev_count": 374,
+          "prev_weight": 0.78,
+          "current_count": 464,
+          "current_weight": 0.93,
+          "event": "增持"
+        },
+        {
+          "code": "3515",
+          "name": "華擎",
+          "count_change": 85,
+          "weight_change": -0.1,
+          "prev_count": 1605,
+          "prev_weight": 2.48,
+          "current_count": 1690,
+          "current_weight": 2.38,
+          "event": "增持"
+        },
+        {
+          "code": "5439",
+          "name": "高技",
+          "count_change": 82,
+          "weight_change": 0.03,
+          "prev_count": 1580,
+          "prev_weight": 2.37,
+          "current_count": 1662,
+          "current_weight": 2.4,
+          "event": "增持"
+        },
+        {
+          "code": "3044",
+          "name": "健鼎",
+          "count_change": 81,
+          "weight_change": -0.05,
+          "prev_count": 1443,
+          "prev_weight": 2.33,
+          "current_count": 1524,
+          "current_weight": 2.28,
+          "event": "增持"
+        },
+        {
+          "code": "5234",
+          "name": "達興材料",
+          "count_change": 71,
+          "weight_change": -0.05,
+          "prev_count": 1402,
+          "prev_weight": 2.58,
+          "current_count": 1473,
+          "current_weight": 2.53,
+          "event": "增持"
+        },
+        {
+          "code": "2330",
+          "name": "台積電",
+          "count_change": 57,
+          "weight_change": 0.15,
+          "prev_count": 1208,
+          "prev_weight": 8.48,
+          "current_count": 1265,
+          "current_weight": 8.63,
+          "event": "增持"
+        },
+        {
+          "code": "6669",
+          "name": "緯穎",
+          "count_change": 36,
+          "weight_change": 0.29,
+          "prev_count": 237,
+          "prev_weight": 4.91,
+          "current_count": 273,
+          "current_weight": 5.2,
+          "event": "增持"
+        },
+        {
+          "code": "2360",
+          "name": "致茂",
+          "count_change": 35,
+          "weight_change": -0.06,
+          "prev_count": 1218,
+          "prev_weight": 4.4,
+          "current_count": 1253,
+          "current_weight": 4.34,
+          "event": "增持"
+        },
+        {
+          "code": "2308",
+          "name": "台達電",
+          "count_change": 27,
+          "weight_change": 0.04,
+          "prev_count": 448,
+          "prev_weight": 2.1,
+          "current_count": 475,
+          "current_weight": 2.14,
+          "event": "增持"
+        },
+        {
+          "code": "2345",
+          "name": "智邦",
+          "count_change": 26,
+          "weight_change": -0.12,
+          "prev_count": 693,
+          "prev_weight": 3.5,
+          "current_count": 719,
+          "current_weight": 3.38,
+          "event": "增持"
+        },
+        {
+          "code": "2383",
+          "name": "台光電",
+          "count_change": 19,
+          "weight_change": -0.1,
+          "prev_count": 415,
+          "prev_weight": 2.88,
+          "current_count": 434,
+          "current_weight": 2.78,
+          "event": "增持"
+        }
+      ],
+      "top_count_down": [],
+      "top_weight_up": [
+        {
+          "code": "6669",
+          "name": "緯穎",
+          "count_change": 36,
+          "weight_change": 0.29,
+          "prev_count": 237,
+          "prev_weight": 4.91,
+          "current_count": 273,
+          "current_weight": 5.2,
+          "event": "增持"
+        },
+        {
+          "code": "5536",
+          "name": "聖暉",
+          "count_change": 94,
+          "weight_change": 0.22,
+          "prev_count": 1239,
+          "prev_weight": 4.48,
+          "current_count": 1333,
+          "current_weight": 4.7,
+          "event": "增持"
+        },
+        {
+          "code": "8021",
+          "name": "尖點",
+          "count_change": 200,
+          "weight_change": 0.2,
+          "prev_count": 4963,
+          "prev_weight": 2.9,
+          "current_count": 5163,
+          "current_weight": 3.1,
+          "event": "增持"
+        },
+        {
+          "code": "2317",
+          "name": "鴻海",
+          "count_change": 179,
+          "weight_change": 0.18,
+          "prev_count": 491,
+          "prev_weight": 0.58,
+          "current_count": 670,
+          "current_weight": 0.76,
+          "event": "增持"
+        },
+        {
+          "code": "3491",
+          "name": "昇達科",
+          "count_change": 90,
+          "weight_change": 0.15,
+          "prev_count": 374,
+          "prev_weight": 0.78,
+          "current_count": 464,
+          "current_weight": 0.93,
+          "event": "增持"
+        },
+        {
+          "code": "2330",
+          "name": "台積電",
+          "count_change": 57,
+          "weight_change": 0.15,
+          "prev_count": 1208,
+          "prev_weight": 8.48,
+          "current_count": 1265,
+          "current_weight": 8.63,
+          "event": "增持"
+        },
+        {
+          "code": "4958",
+          "name": "臻鼎-KY",
+          "count_change": 168,
+          "weight_change": 0.07,
+          "prev_count": 1784,
+          "prev_weight": 1.34,
+          "current_count": 1952,
+          "current_weight": 1.41,
+          "event": "增持"
+        },
+        {
+          "code": "2316",
+          "name": "楠梓電",
+          "count_change": 272,
+          "weight_change": 0.07,
+          "prev_count": 3335,
+          "prev_weight": 1.54,
+          "current_count": 3607,
+          "current_weight": 1.61,
+          "event": "增持"
+        },
+        {
+          "code": "6213",
+          "name": "聯茂",
+          "count_change": 223,
+          "weight_change": 0.05,
+          "prev_count": 2299,
+          "prev_weight": 1.31,
+          "current_count": 2522,
+          "current_weight": 1.36,
+          "event": "增持"
+        },
+        {
+          "code": "2308",
+          "name": "台達電",
+          "count_change": 27,
+          "weight_change": 0.04,
+          "prev_count": 448,
+          "prev_weight": 2.1,
+          "current_count": 475,
+          "current_weight": 2.14,
+          "event": "增持"
+        },
+        {
+          "code": "5439",
+          "name": "高技",
+          "count_change": 82,
+          "weight_change": 0.03,
+          "prev_count": 1580,
+          "prev_weight": 2.37,
+          "current_count": 1662,
+          "current_weight": 2.4,
+          "event": "增持"
+        },
+        {
+          "code": "6510",
+          "name": "精測",
+          "count_change": 16,
+          "weight_change": 0.01,
+          "prev_count": 331,
+          "prev_weight": 2.59,
+          "current_count": 347,
+          "current_weight": 2.6,
+          "event": "增持"
+        }
+      ],
+      "top_weight_down": [
+        {
+          "code": "3017",
+          "name": "奇鋐",
+          "count_change": 17,
+          "weight_change": -0.25,
+          "prev_count": 1129,
+          "prev_weight": 8.09,
+          "current_count": 1146,
+          "current_weight": 7.84,
+          "event": "增持"
+        },
+        {
+          "code": "2368",
+          "name": "金像電",
+          "count_change": 0,
+          "weight_change": -0.13,
+          "prev_count": 993,
+          "prev_weight": 2.28,
+          "current_count": 993,
+          "current_weight": 2.15,
+          "event": "持平"
+        },
+        {
+          "code": "3706",
+          "name": "神達",
+          "count_change": 0,
+          "weight_change": -0.12,
+          "prev_count": 4944,
+          "prev_weight": 2.24,
+          "current_count": 4944,
+          "current_weight": 2.12,
+          "event": "持平"
+        },
+        {
+          "code": "2345",
+          "name": "智邦",
+          "count_change": 26,
+          "weight_change": -0.12,
+          "prev_count": 693,
+          "prev_weight": 3.5,
+          "current_count": 719,
+          "current_weight": 3.38,
+          "event": "增持"
+        },
+        {
+          "code": "3231",
+          "name": "緯創",
+          "count_change": 0,
+          "weight_change": -0.11,
+          "prev_count": 3000,
+          "prev_weight": 2.04,
+          "current_count": 3000,
+          "current_weight": 1.93,
+          "event": "持平"
+        },
+        {
+          "code": "2402",
+          "name": "毅嘉",
+          "count_change": 0,
+          "weight_change": -0.1,
+          "prev_count": 6848,
+          "prev_weight": 1.67,
+          "current_count": 6848,
+          "current_weight": 1.57,
+          "event": "持平"
+        },
+        {
+          "code": "3515",
+          "name": "華擎",
+          "count_change": 85,
+          "weight_change": -0.1,
+          "prev_count": 1605,
+          "prev_weight": 2.48,
+          "current_count": 1690,
+          "current_weight": 2.38,
+          "event": "增持"
+        },
+        {
+          "code": "2383",
+          "name": "台光電",
+          "count_change": 19,
+          "weight_change": -0.1,
+          "prev_count": 415,
+          "prev_weight": 2.88,
+          "current_count": 434,
+          "current_weight": 2.78,
+          "event": "增持"
+        },
+        {
+          "code": "3694",
+          "name": "海華",
+          "count_change": 0,
+          "weight_change": -0.09,
+          "prev_count": 4875,
+          "prev_weight": 1.73,
+          "current_count": 4875,
+          "current_weight": 1.64,
+          "event": "持平"
+        },
+        {
+          "code": "2404",
+          "name": "漢唐",
+          "count_change": 0,
+          "weight_change": -0.08,
+          "prev_count": 454,
+          "prev_weight": 1.78,
+          "current_count": 454,
+          "current_weight": 1.7,
+          "event": "持平"
+        },
+        {
+          "code": "6196",
+          "name": "帆宣",
+          "count_change": 0,
+          "weight_change": -0.07,
+          "prev_count": 1901,
+          "prev_weight": 2.22,
+          "current_count": 1901,
+          "current_weight": 2.15,
+          "event": "持平"
+        },
+        {
+          "code": "4966",
+          "name": "譜瑞-KY",
+          "count_change": 0,
+          "weight_change": -0.07,
+          "prev_count": 520,
+          "prev_weight": 1.66,
+          "current_count": 520,
+          "current_weight": 1.59,
+          "event": "持平"
+        },
+        {
+          "code": "2360",
+          "name": "致茂",
+          "count_change": 35,
+          "weight_change": -0.06,
+          "prev_count": 1218,
+          "prev_weight": 4.4,
+          "current_count": 1253,
+          "current_weight": 4.34,
+          "event": "增持"
+        },
+        {
+          "code": "3189",
+          "name": "景碩",
+          "count_change": 0,
+          "weight_change": -0.06,
+          "prev_count": 2587,
+          "prev_weight": 1.61,
+          "current_count": 2587,
+          "current_weight": 1.55,
+          "event": "持平"
+        },
+        {
+          "code": "8996",
+          "name": "高力",
+          "count_change": 0,
+          "weight_change": -0.06,
+          "prev_count": 194,
+          "prev_weight": 0.62,
+          "current_count": 194,
+          "current_weight": 0.56,
+          "event": "持平"
+        },
+        {
+          "code": "5234",
+          "name": "達興材料",
+          "count_change": 71,
+          "weight_change": -0.05,
+          "prev_count": 1402,
+          "prev_weight": 2.58,
+          "current_count": 1473,
+          "current_weight": 2.53,
+          "event": "增持"
+        },
+        {
+          "code": "8358",
+          "name": "金居",
+          "count_change": 0,
+          "weight_change": -0.05,
+          "prev_count": 781,
+          "prev_weight": 0.85,
+          "current_count": 781,
+          "current_weight": 0.8,
+          "event": "持平"
+        },
+        {
+          "code": "3044",
+          "name": "健鼎",
+          "count_change": 81,
+          "weight_change": -0.05,
+          "prev_count": 1443,
+          "prev_weight": 2.33,
+          "current_count": 1524,
+          "current_weight": 2.28,
+          "event": "增持"
+        },
+        {
+          "code": "6805",
+          "name": "富世達",
+          "count_change": 18,
+          "weight_change": -0.04,
+          "prev_count": 331,
+          "prev_weight": 2.32,
+          "current_count": 349,
+          "current_weight": 2.28,
+          "event": "增持"
+        },
+        {
+          "code": "2881",
+          "name": "富邦金",
+          "count_change": 0,
+          "weight_change": -0.03,
+          "prev_count": 1610,
+          "prev_weight": 0.71,
+          "current_count": 1610,
+          "current_weight": 0.68,
+          "event": "持平"
+        }
+      ],
+      "new_positions": [],
+      "closed_positions": []
+    },
+    "summary": {
+      "date": "2025/11/07",
+      "prev_date": "2025/11/06",
+      "new_count": 0,
+      "closed_count": 0,
+      "add_count": 23,
+      "reduce_count": 0,
+      "net_count_change": 2259,
+      "net_weight_change": -0.4600000000000009
+    }
+  }
+}
